@@ -22,30 +22,30 @@ class TalentFlowApp:
 
     self.temas = {
         "escuro": {
-            "bg_root": "#1E293B",
-            "bg_card": "#0F172A",
-            "bg_sec": "#334155",
+            "bg_root": "#1B1A45",
+            "bg_card": "#041235",
+            "bg_sec": "#354254",
             "text_primary": "#F8FAFC",
             "text_secondary": "#94A3B8",
-            "btn_primary": "#2563EB",
+            "btn_primary": "#B3C8F6",
             "btn_pdf": "#059669",
             "btn_print": "#D97706",
             "btn_theme": "#475569",
             "border": "#475569",
-            "entry_bg": "#1E293B",
+            "entry_bg": "#101349",
             "entry_fg": "#F8FAFC",
         },
         "claro": {
-            "bg_root": "#F1F5F9",
-            "bg_card": "#FFFFFF",
+            "bg_root": "#449EF9",
+            "bg_card": "#4BA2D1",
             "bg_sec": "#E2E8F0",
             "text_primary": "#0F172A",
-            "text_secondary": "#475569",
-            "btn_primary": "#1D4ED8",
+            "text_secondary": "#4C7EC4",
+            "btn_primary": "#16295C",
             "btn_pdf": "#047857",
             "btn_print": "#B45309",
-            "btn_theme": "#CBD5E1",
-            "border": "#CBD5E1",
+            "btn_theme": "#A4BFDF",
+            "border": "#7398C2",
             "entry_bg": "#FFFFFF",
             "entry_fg": "#0F172A",
         },
@@ -83,7 +83,7 @@ class TalentFlowApp:
 
     self.lbl_subtitulo = tk.Label(
         self.root,
-        text="Central de Geração de Currículo e Envio Multilataforma",
+        text="Central de Geração de Currículo e Envio MultiPlataforma",
         font=("Segoe UI", 9),
     )
     self.lbl_subtitulo.grid(row=1, column=0, pady=(0, 5))
